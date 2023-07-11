@@ -1,3 +1,2 @@
 /venv
-/movies.pkl
-/similrity.pkl
+*.pkl
