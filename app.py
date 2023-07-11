@@ -4,8 +4,8 @@ import requests
 
 str.title("Movie Recomender")
 
-movies = pickle.load(open('movies.pkl','rb'))
-similarity = pickle.load(open('similarity.pkl','rb'))
+movies = pickle.load(open('./movies.pkl','rb'))
+similarity = pickle.load(open('./similarity.pkl','rb'))
 
 def recommend(movie):
     ind = movies['title'][movies['title'] == movie].index[0]
